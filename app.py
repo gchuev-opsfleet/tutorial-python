@@ -3,8 +3,6 @@ import re
 import string
 import random
 import json
-from datetime import datetime
-from random import randint
 from todos_store import Store
 import sentry_sdk
 from sentry_sdk.integrations.flask import FlaskIntegration
